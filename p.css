@@ -1,0 +1,177 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(1,1,14);
+    color: white;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;  
+    padding: 22px;
+    margin-top: 8px;
+    color: white;
+    box-shadow: 0px 2px 6px 2px rgb(1,2,35);
+}
+ul li{
+    list-style: none;
+}
+.logo{
+    color: green;
+    font-size: 30px;
+    margin-left: 75px;
+}
+nav ul li a{
+    color: white;
+    margin-inline: 22px;
+    text-decoration: none;  
+}
+nav ul li a:hover{
+    color: green;
+    background-color: transparent;
+}
+nav ul{
+    margin-right: 63px;
+    margin-top: 6px;
+}
+ul li button{
+    width: 100px;
+    height: 30px;
+    background-color: green;
+    border:none;
+    color: white;
+}
+ul li button:hover{
+    color:green;
+    background-color: transparent;
+    border: 2px solid red;
+    cursor: pointer;
+}
+.home{
+    display: flex;
+    height: 60px;
+    justify-content: center;
+}
+.home .hometext{
+    margin-top: 200px;
+    margin-left: 44px;
+}
+.hometext h1{
+    color: green;  
+}
+.hometext p{
+    color: silver;
+}
+.hometext button{
+    width: 100px;
+    height: 30px;
+    background-color: green;
+    color: white;
+}
+.hometext button:hover{
+    border: 2px solid brown;
+    background-color: transparent;
+    color:green;
+}
+.head{
+    text-align: center;
+    padding: 95px;
+}
+.ourprogram{
+margin-top: 800px;
+display: flex;
+margin-inline: 22px;
+padding: 22px;
+}
+.head h1{
+    margin-top: 800px;
+    justify-content: center;
+}
+.crd{
+    padding: 22px;
+    margin-inline: 22px;
+    justify-content: center;
+}
+.crd h1{
+    text-align: center;
+}
+.ourprogram .crd img:hover{
+    width: 103%;
+}
+.plan{
+    display: flex;
+}
+.ourplan{
+    display: flex;
+    justify-content: center;
+}
+.ourplan.card{
+    margin-inline: 22px;
+    width: 300px;
+    padding: 22px;
+    text-align: center;
+    color: red;
+}
+.card{
+    background-color: rgb(42, 16, 16);
+    margin-inline: 22px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+   
+}
+.card h3{
+    margin-top: 22px;
+}
+.card h1{
+    margin-top: 22px;
+}
+.card p{
+    margin-top: 22px;
+}
+.card button{
+    width: 100px;
+    height: 30px;
+    background-color: green;
+    margin-top: 22px;
+}
+.card button:hover{
+    border: 2px solid red;
+    background-color: transparent;
+    color: green;
+    cursor: pointer;
+}
+.card:hover{
+    transition: o.7s ease;
+    width: 320px;
+    background-color: black;
+    cursor: pointer;
+    font-size: 18px;
+}
+.head{
+    display: flex;
+}
+.ourblog{
+    display: flex;
+}
+.blogcard{
+    margin-inline: 22px;
+    justify-content: center;
+}
+.blogcard h3{
+    text-align: center;
+}
+.blogcard p{
+    text-align: center;
+}
+.blogtext a{
+    text-align: center;
+    background-color: red;
+    text-decoration: none;
+}
+.contact{
+    margin-top: 0px;
+}

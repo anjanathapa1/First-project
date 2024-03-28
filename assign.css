@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    border: border-box;
+}
+#main{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(64, 63, 63); 
+}
+
+ /* #header{
+    width: 1200px;
+    height: 100px;
+    /* background-color: antiquewhite; */
+    /* float: left; */
+
+/* .logo{
+    width: 200px;
+    height: 100px;
+    float: left;
+} */
+
+/* .logo img{
+    width: 100px;
+    height: 100px;
+ } */
+
+
+/* .title{
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    list-style-type: lower-latin;
+    /* background-color: lightblue;  
+    float: left;
+} */
+
+
+/* .title h1{
+ color: gray;
+ margin: 10px;
+font-family: 'monotype corsiva';
+font-size: 42px;
+font-weight: bold;
+} */
+
+/* .title h1 ::first-letter{
+   
+    color: blue; 
+}*/
+
+
+/* .title h3{
+color: blue;
+} */
+
+/* .social{
+    width: 500px;
+    height: 100px;
+     justify-content: end; 
+    display: flex;
+    float: left;
+    /* background-color: beige;  
+} */
+
+
+/* .social img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin: 2px;
+}  */
+/* body{
+    background-image: url(cover.jpg);
+    background-size: 100%;
+    color: white;
+} */
+#nav{
+    width: 1200px;
+    height: 700px;
+    /* background-color: aqua; */
+    background-image: url(pro.jpg);
+    background-size: 1200px; 
+    position: relataive;
+    justify-content: center;
+    align-items:center;
+} 
+.navgation{
+    position:absolute;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+.sticky{
+    position:fixed;
+    /* top:0; */    
+}
+#nav li
+{
+    float: none;
+    /*bullet hataune */
+    list-style-type: none;
+    /* space between text in nav*/
+    margin: 17px 20px;
+}
+#nav ul li ul
+{
+    /* background-color: red; */
+    border-radius: 0 5px 0 5px;/* for making circular or elliptical*/
+    display: none;
+
+}
+
+#nav ul li ul li
+{
+    float: none;
+    margin:5px;
+    padding-bottom:0 5px 5px 5px;
+    border-bottom:1px dotted silver;
+}
+#nav ul li a
+{
+    text-decoration: none;/*for underline*/
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    /* background-color: blueviolet; */
+    width: 100px;
+    display: inline-block;
+}
+#nav ul li:hover ul
+{
+     /*hover=mouse line bitikkai dekhhinu */
+    display: block;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+#main-nav
+{
+    display:flex;
+    flex-direction:row;
+    top: 100px;
+    float:1;
+}
+#user-nav
+{
+    float: right;
+}
+#slider{
+    width: 1200px;
+    height: 400px;
+    /* background-color: brown; */
+    /* float: left; */
+    
+}
+#display{
+    width: 1200px;
+     height: 350px;
+    /* background-color: rgb(153, 187, 187); */
+}
+.product{
+    width: 250px;
+    height: 300px;
+    margin: 25px 0 25px 25px;
+     background-color: blue; 
+   float: left;
+}
+.product img{
+    width: 250px;
+    height: 250px;
+}
+
+#testimonial{
+    width: 1200px;
+    height: 400px; 
+     /* background-color: peachpuff;  */
+}
+#testimonial h1{
+    text-align: center;
+    color: white;
+}
+.review{
+    width: 250px;
+    height: 300px;
+    background-color: white; 
+    margin: 25px 0 25px 25px;
+    float: left;
+}
+.review img{
+   width: 100px;
+   height: 100px;
+    border-radius: 100%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+}
+
+#testimonial .review img{
+    margin-top: 15px;
+    margin-left: 25%;
+}
+.review h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#footer{
+    width: 1200px;
+    /* height: 200px; */
+    /* background-color: lightgreen; */
+     background-color: white; 
+}
+#footer h1{
+    text-align:center;
+    color: white;
+}
+#footer p{
+    text-align: center;
+    color:white;
+}
+#footer button{
+    background-color: gray;
+    width: 100px;
+}
+#reg-form form .from-div{
+margin: 5px 0;
+color: white;
+} 
+#reg-form form .form-div input,
+#reg-form form .form-div select, 
+#reg-form form .form-div textarea{
+    /* background-color: aquamarine; */
+    width: 200px;
+    height: 30px;
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+    padding: 0 10px;
+    color: rgb(red, green, blue);
+    font-size: 22px;
+    font-family:'Courier New', Courier, monospace;
+    
+}

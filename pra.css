@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#main{
+    width: 1200px;
+    margin: 0 auto;
+}
+#header{
+    width: 1200px;
+    height: 100px;
+    float: left;
+    display: flex;
+   
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    background-color: bisque;
+}
+.logo img{
+    width: 80px;
+    background-color: white;
+    height: 80px;
+    margin: 10px;
+}
+.title{
+    
+    width:550px;
+    height: 100px;
+    float: left;
+    background-color: blueviolet;
+}
+.social{
+   background: lightgreen;
+    height:100px;
+    width: 550px;
+    display: flex;
+    justify-content: end;
+    background-color: aquamarine;
+}
+.social img{
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+}
+#nav{
+    width: 1200px;
+    height: 200px;
+    background-color: aqua;
+    
+}
+#nav li{
+list-style-type: none;
+float: left;
+margin: 17px 20px;
+}
+#slider{
+  width:1200px;
+  height: 200px;
+  background-color: blue;  
+}
+#display{
+    width: 1200px;
+     height: 300px; 
+    background-color: rebeccapurple;
+}
+.product{
+    width: 250px;
+    height: 250px;
+    background-color: bisque;
+    float: left;
+    margin: 25px 0px 25px 40px;
+}
+.product img{
+    width: 250px;
+    height: 200px;
+} 
+#testimonial{
+width: 1200px;
+height: 200px;
+background-color: lightblue;
+}
+.review{
+    width: 540px;
+    height: 150px;
+    background-color: burlywood;
+    float: left;
+    margin: 25px 0px 25px 40px;
+}
+#footer{
+    width: 1200px;
+    height:200px;
+    background-color: aquamarine;
+}

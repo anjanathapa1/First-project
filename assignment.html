@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assignment.css">
+    <title>welcome</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>crossfit factory</h1>
+            </div>
+            <ul>
+                <li>
+                    <a href="#Home" id="Homes" onclick="home()">Home</a>
+                    <a href="#Program" id="Programs" onclick="Program()">Program</a>      
+                    <a href="#Plan" id="Plans" onclick="Plan()">plan</a>
+                    <a href="#Blog" id="Blogs" onclick="Blog()">Blog</a>
+                    <a href="#contact" id="contacts" onclick="contact()">contact</a>
+                    <button>Register</button>
+            </li>
+        </ul>
+        </nav>
+        <!-- main -->
+        <div class="Home" id="Home">
+            <div class="hometext">
+                <h1>FITNESS CLUB</h1>
+                <p>if you want something you've never had.you must be wlling<br>
+                     to do something you've never done</p>
+                     <button>join now</button>
+            </div>
+            <!-- <img src="cover.jpg" alt="lady"> -->
+        </div>
+
+        <!-- program -->
+        <div class="Program" id="Program">
+            <div class="head">
+                <h1>our <span>programs</span></h1>
+            </div>
+            <div class="ourprogram">
+            <div class="crd">
+                <img src="dance.jpg" alt="product">
+                <h3>Dance</h3>
+            </div>
+            <div class="crd">
+                <img src="cardio.jpg" alt="product">
+                <h3>Cardio</h3>
+            </div>
+            <div class="crd">
+                <img src="weight.jpg" alt="product">
+                <h3>Heavy weight</h3>
+            </div> 
+            </div>
+        </div>
+        <!-- plan -->
+
+        <div class="Plan" id="Plan">
+            <div class="head">
+                <h1>our <span>plans</span></h1>  
+            </div>
+            <div class="ourplan">
+
+              <div class="card">
+                <i class="fa-solid fa-bookmark"></i>
+                <h3>Basic pacakage</h3>
+                <h1>30 day in nrs 40000</h1>
+                <p>no personal trainer</p>
+                <p> valid for 30 days</p>
+                <button>buy plan</button>
+              </div> 
+
+              <div class="card">
+                <i class="fa-solid fa-right-to-bracket"></i>
+                <h3>Premiun pacakage</h3>
+                <h1>30 day in nrs 100000</h1>
+                <p>personal trainer</p>
+                <p> valid for 30 days</p>
+                <button>buy plan</button>
+              </div> 
+              
+              <div class="card">
+                <i class="fa-solid fa-diamond"></i>
+                <h3>Diamond pacakage</h3>
+                <h1>30 day in nrs 65000</h1>
+                <p>1 week personal trainer</p>
+                <p> valid for 30 days</p>
+                <p>full day valid</p>
+                <button>buy plan</button>
+              </div>  
+            </div>      
+        </div>
+        <!-- blog -->
+        <div class="Blog" id="Blog">
+            <div class="head">
+            <h1>our<span>blogs</span></h1>
+        </div>
+        <div class="ourblog">
+            <div class="blogcard">
+                <img src="loss.jpg" alt="samriddhi">
+                <div class="blogtext">
+                    <h3>How to loss weight?</h3>
+                    <p><p>Losing weight typically involves a <br>combination 
+                        of dietary changes, increased physical activity,
+                        <br>and lifestyle adjustments.<br> 
+                    </p>
+                    <a href="https://www.themanual.com/fitness/how-to-lose-weight-at-the-gym/">read more</a>
+                </div>
+            </div>
+
+            <div class="blogcard">
+                <img src="protine.jpg" alt="protain">
+                <div class="blogtext">
+                    <h3>what is the best diet for the gym?</h3>
+                    <p>The "best" diet for the gym depends on 
+                        various factors including your individual
+                         goals, preferences, and overall health</p>
+                    <a href="https://www.webmd.com/fitness-exercise/ss/slideshow-best-foods-fitness">read more</a>
+                </div>
+            </div>
+
+            <div class="blogcard">
+                <img src="ap's.jpg" alt="samriddhi">
+                <div class="blogtext">
+                    <h3>How to make aps?</h3>
+                    <p>Achieving visible six-pack abs involves
+                        a combination of regular exercise, proper
+                        nutrition, and lifestyle habits. 
+                    </p>
+                    <a href="https://www.wikihow.com/Get-Six-Pack-Abs-Fast">read more</a>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- contact -->
+        <div class="contact" id="contact">
+            <div class="head">
+                <h1>let <span>begin</span></h1>
+                <h2>contact<span>us</span></h2>
+            </div>
+            <div class="contactpage">
+                <div class="contacttext">
+                    <h1>let's go</h1>
+                    <h2>start your journey now!</h2>
+                </div>
+            </div>
+            <div class="contactus">
+                <input type="text" placeholder="customer name" value="" id="name">
+                <input type="text" placeholder="mobile number" value="" id="numbers">
+                <button onclick="submit()">submit</button>
+            </div>
+        </div>
+        <!-- FOOTER -->
+        <div class="footer" id="footer">
+            <div class="footerText">
+                <h2>About us</h2>
+                <p>lorem ipsum dolor sit amet consectstur
+                    adipisicion elit.
+                </p>
+            </div>
+
+            <div class="footerText">
+                <h2>About us</h2>
+                <p>plans</p>
+                <p>transaarent</p>
+                <p>Account</p>
+                <p>valid</p>
+                <p>Ends</p> 
+            
+            </div>
+
+            <div class="footerText">
+                <h2>Program</h2>
+                <p>Dance</p>
+                <p>cardio</p>
+                <p>heavy weight</p>
+                <p>fun more</p>
+            </div>
+            
+            <div class="footerText">
+                <h2>contact US</h2>
+                <p>Membership</p>
+                <p>plas</p>
+                <p>Diamond Plan</p>
+                <p>join now</p>
+            </div>
+        </div>
+       </div>
+      
+</body>
+</html>

@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#main{
+    width: 80%;
+    
+    margin: 0 auto;
+}
+header{
+
+    /* height: 100px; */
+    width: 100%;
+    background-color: #eeeeee;
+    float: left;
+    display: flex;
+}
+
+.logo{
+   
+    width: 20%;
+    /* height: 100px; */
+    
+}
+.logo img{
+height: 80px;
+width: 80px;
+margin: 10px;
+}
+.title{
+   
+    width:40%;
+    /* height: 100px; */
+
+}
+.title h1{
+margin: 10px;
+font-family: 'monotype corsiva';
+color: blue;
+font-size: 38px;
+font-weight: bold;
+}
+.title h1::first-letter{
+
+    color: gray;
+  
+}
+/* .title h1::before{
+    content: url(arrow dakhauna);
+} */
+.title h4{
+    text-indent: 30%;
+    font-size: 16px;
+    color: red;
+}
+
+.social{
+    /* height:100px; */
+    width: 40%;
+    display: flex;
+    justify-content: end;
+}
+.social h1{
+margin-top: 10px;
+color: blue;
+}
+.social img{
+height: 30px;
+width: 30px;
+margin: 5px;
+}
+.social a{
+    text-decoration: none;
+}
+@media screen and (MAX-WIDTH: 768px)
+{
+header
+{
+        background-color: yellow;
+   
+    display: block;
+}
+.logo{
+    width: 30%; 
+    float: left;
+}
+.title{
+    width: 70%;
+    float: left;
+}
+.social{
+    width: 100%;
+    
+}
+}
+@media screen and (MAX-WIDTH: 576px)
+{
+ header
+ {
+        background-color: green;
+        display: block;
+    }
+}
+
+.logo{
+    width: 100%; 
+   
+}
+
+.logo img{
+    display: block;
+    margin: auto;
+}
+.title{
+    width: 100%;
+   
+}
+.social{
+    width: 100%;
+    
+}
+
+nav
+{
+   /* height: 50px;*/
+    width: 100%;
+    background-color: lightpink;
+    float: left;
+}
+/*descendant=tree structure (specific)*/
+
+
+nav ul li{
+    float: left;
+    list-style-type: none;
+    margin: 17px 20px;
+}
+nav ul li ul
+{
+    background-color: red;
+    border-radius: 0 5px 0 5px;/* for making circular or elliptical*/
+    display: none;
+    position: absolute;
+    /* position: absolute; */
+}
+nav ul li ul li
+{
+    float: none;
+    margin: 5px;
+    padding-bottom: 0 5px 5px 5px;
+    border-bottom: 1px dotted silver;
+}
+nav ul li a
+{
+    text-decoration: none;/*for underline*/
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: blueviolet;
+    width: 100px;
+    display: inline-block;
+}
+nav ul li:hover ul
+{
+     /*hover=mouse line bitikkai dekhhinu */
+    display: block;
+}
+#main-nav
+{
+    float: left;
+}
+#user-nav
+{
+    float: right;
+}
+
+
+
+@media screen and (MAX-WIDTH: 576px)
+{
+ header
+ {
+        background-color: green;
+        display: block;
+    }
+
+nav ul li{
+    float: none;
+}
+nav ul li ul{
+  /* margin-left: 100px; margin-top: -20px; */
+  position: relative;
+}
+#main-nav, #user-nav{
+float: none;
+}
+
+
+#slider
+{
+     height: 1400px; 
+    width: 1200px;
+    background-color: grey;
+    float: left;
+}
+#slider h1{
+    width: 50%;
+    margin: -1350px auto 0 auto; 
+    top: 0px;
+  
+    color: red;
+    background-color: rgb(103, 236, 236, 0.4);
+    position:sticky; 
+     text-align: center;
+   /* opacity: o.5;
+   z-index: -3; */
+
+}
+#slider img{
+    width: 100%;
+    height: 490px;
+    border: 5px solid rgb(69, 189, 237);
+}
+
+ header
+ {
+        background-color: green;
+        display: block;
+    }
+
+#display
+{
+   /* height: 300;*/
+    width: 1200px;
+    background-color: blueviolet;
+    float: left;
+}
+h1
+{
+    text-align: center;
+    width: 500px;
+    margin: 5px auto;
+}
+.product
+{
+    width: 20%;
+    height: 250px;
+    background-color: violet;
+    margin: 25px 0 25px 4%;
+    float: left;
+}
+.product img{
+    width: 100%;
+    height: 200px;
+
+}
+
+.product h6{
+    color: black;
+}
+}
+
+
+@media screen and (MAX-WIDTH: 768px)
+{
+#main-nav, #user-nav
+{
+        background-color: yellow;
+   
+    display: block;
+}
+.product{
+    width: 30%; 
+    margin-left: 3%;
+}
+.title{
+    width: 70%;
+    float: left;
+}
+.social{
+    width: 100%;
+    
+}
+}
+@media screen and (MAX-WIDTH: 576px)
+{
+ #slider h1
+ {
+        background-color: green;
+       
+    }
+.product{
+    width: 90%;
+    margin-left: 4%;
+}
+}
+

@@ -1,0 +1,144 @@
+/* selector:
+1.Tag
+2.Id
+3.Class
+4.Descendant
+5.Child
+6.Universal
+7. pseudo
+*/
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+ a
+{
+    color: white;
+}
+ table,td,th
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+#tbl
+{
+    height: 200px;
+    width: 200px;
+}
+#main
+{
+    width: 1200px;
+    margin: 0 auto;
+}
+#header
+{
+    height: 100px;
+    width: 1200px;
+    background-color: blue;
+    float: left;
+}
+#nav
+{
+   /* height: 50px;*/
+    width: 1200px;
+    background-color: lightpink;
+    float: left;
+}
+/*descendant=tree structure (specific)*/
+#nav li
+{
+    float: left;
+    /*bullet hataune */
+    list-style-type: none;
+    /* space between text in nav*/
+    margin: 17px 20px;
+}
+#nav ul li ul
+{
+    background-color: blue;
+    border-radius: 0 5px 0 5px;/* for making circular or elliptical*/
+    display: none;
+
+}
+#nav ul li ul li
+{
+    float: none;
+    margin: 5px;
+    padding-bottom: 0 5px 5px 5px;
+    border-bottom: 1px dotted silver;
+}
+#nav ul li a
+{
+    text-decoration: none;/*for underline*/
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: blueviolet;
+    width: 100px;
+    display: inline-block;
+}
+#nav ul li:hover ul
+{
+     /*hover=mouse line bitikkai dekhhinu */
+    display: block;
+}
+#main-nav
+{
+    float: left;
+}
+#user-nav
+{
+    float: right;
+}
+#slider
+{
+    height: 400px;
+    width: 1200px;
+    background-color: grey;
+    float: left;
+}
+#display
+{
+   /* height: 300;*/
+    width: 1200px;
+    background-color: blueviolet;
+    float: left;
+}
+h1
+{
+    text-align: center;
+    width: 500px;
+    margin: 5px auto;
+}
+.product
+{
+    width: 250px;
+    height: 250px;
+    background-color: violet;
+    margin: 25px 0 25px 40px;
+    float: left;
+}
+#testimonial
+{
+    height: 300px;
+    width: 1200px;
+    background-color:yellow ;
+    float: left;
+}
+.review
+{
+    width: 555px;
+    height: 250px;
+    background-color: aqua;
+    margin: 25px 0 25px 30px;
+    float: left;
+}
+#footer
+{
+    height: 200px;
+    width: 1200px;
+    background-color: blueviolet;
+    float: left;
+}

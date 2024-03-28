@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>welcome</title>
+    <link rel="stylesheet" href="web.css">
+</head>
+<body>
+   <div id ="main">
+       <div id="header">
+           <div class="logo"> 
+            <img width="100px" src="image/logo.jpg.jpg" alt="fitness">
+        </div>
+        <div class="title">
+            <h1>website title</h1>
+            <h2>website slagan</h2>
+        </div>
+        <div class="social">
+            <div>
+                <h3>follow us</h3>
+           
+            <a href="https://facebook.com"></a>
+        <img src="facebook.jpg.png" alt="facebook">
+            
+            <a href="https://youtube.com"></a>
+        <img src="youtube.png" alt="facebook">
+            <a href="https://instagram.com"></a>
+        <img src="insta.jpeg.jpeg" alt="instagram">
+        </div>
+       </div>
+       </div>
+       <div id="nav">
+        <ul id="main-nav">
+            <li><a href="web.html">Home</a></li>
+            <li><a href="https://www.Google.com">google</a>
+                
+            <li><a href="#">About us</a>
+            <ul>
+                <li><a href="#">introduction</a>
+                <li><a href="#">mission</a>
+                <li><a href="#">achivement</a>
+            </ul>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Categoties</a></li>
+            <li><a href="#">Policy</a></li>
+            <li><a href="pratice.html">table</a>
+            <li><a href="#">Contact us</a></li>
+        
+        </ul>
+        <ul id="user-nav">
+            <li><a href="#">User &nabla;</a>
+                <ul>
+                    <li><a href="#" >Register</a></li>
+                    <li><a href="#" >login</a></li>
+                </ul>
+            </li>
+        </ul>
+       </div> 
+
+       <div id="reg-form">
+        <form method="post" action="save.php" enctype="multipart/form-data">
+        <!-- enctype navae file uplode hudaina -->
+            <div class="form-div">
+                <label for="">Full Name</label>
+                <input type="text" name="fullname" length="20" required id="fn">
+            </div>
+            <div class="form-div">
+                <label for="">Address</label>
+                <input type="text" name="address" PLACEHOLDER="ADDRESS">
+            </div>
+
+            <div class="form-div">
+                <label for="">Date of Birth</label>
+                <input type="date" name="dob" value="2000-01-31" min="1989-01-01" max="2004-01-01">
+            </div>
+
+                <div class="form-div">
+                    <label for="">Gender</label>
+                    <input type="radio" name="gender" value="Male" id="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" value="Female" id="female">
+                    <label for="female">female</label>
+                    <input type="radio" name="gender" value="Other" id="other">   <!--radio diyeko option bata euta matra choose garne-->
+                    <label for="other">Other</label>  <!--check box diyeko option bata multiple choose garna milne-->
+                </div>
+
+                    <div class="form-div">
+                        <label for="">Interests:</label>
+
+                        <input type="checkbox" name="intrst[]" value="Designing" checked>
+                        <label for="">Designing</label>
+                        <input type="checkbox" name="intrst[]" value="Programming">
+                        <label for="">Programming</label>
+                        <input type="checkbox" name="intrst[]" value="Management" checked>   <!--radio diyeko option bata euta matra choose garne-->
+                        <label for="">Management</label>
+                        <input type="checkbox" name="intrst[]" value="Marketing">
+                        <label for="">Marketing</label>                     <!--check box diyeko option bata multiple choose garna milne-->
+                    </div>
+
+                        <div class="form-div">
+                            <label for="">Province</label>
+                            <select name="province" id="" required>
+                                <option value="">select province</option>
+                                <option value="koshi">Koshi</option>
+                                <option value="Madesh">Madesh</option>
+                                <option value="Bagmati" selected>Bagmati</option>
+                                <option value="Gandaki">Gandaki</option>
+                                <option value="Lumbini">Lumbini</option>
+                                <option value="Karnali">Karnali</option>
+                                <option value="Sudur Paschim">Sudur Paschim </option>
+                            </select>
+                        </div>
+                            <div class="form-div">
+                                <label for="">Municipality</label>
+                                <input type="text" name="mun">
+                            </div>
+
+                            <div class="form-div">
+                                <label for="">Ward</label>
+                                <input type="number" name="ward" max="32" min="1">
+                            </div>
+                            
+                            <div class="form-div">
+                                <label for="">Bio</label>
+                                <textarea name="bio" id="" cols="30" rows="5">previous date</textarea>
+                            </div>
+
+                                <div class="form-div">
+                                    <label for="">mobile</label>
+                                    <input type="number" name="mobile" max length="9899999999" min="9700000000">
+                                </div>
+                                
+
+                                <div class="form-div">
+                                    <label for="">Email</label>
+                                    <input type="email" name="email">
+                                </div>
+
+                                <div class="form-div">
+                                    <label for="">website</label>
+                                    <input type="website" name="website">
+                                    </div>
+
+                                    <div class="form-div">
+                                        <label for="">range</label>
+                                        <input type="range" name="range" min="1" max="5">
+                                        </div>
+
+                                <div class="form-div">
+                                    <label for="">Password</label>
+                                    <input type="password" name="pwd">
+                                </div>
+                                <div class="form-div">
+                                    <label for="">fav color</label>
+                                    <input type="color" name="color">
+                                </div>
+                                <div class="form-div">
+                                    <label for="">image</label>
+                                    <input type="file" name="image">
+                                </div>
+
+                                <div class="form-div">
+                                    <input type="button" value="click">
+                                    <input type="reset">
+                                
+                                    <input type="submit" value="register">
+                                <!-- server ma data pathuna register -->
+                                </div>
+                                <div class="form-div">
+                                    <buttom type="buttom">click</buttom>
+                                    <buttom type="reset">reset</buttom>
+                                    <buttom type="submit">register</buttom>
+                                </div>
+<!-- register ko thau ma image pani rakhana sakinxa -->
+
+<!--post method bata gareko secure hunxa hidden hunxa and get method bata gareko secure hundaina jun dekhinxa. Data server ma pathauna ko lagi data form ma huna parxa-->
+<!--client bata server ma pathaune method-->
+            <!--action means process method of post-->
+        </form>
+       
+       <div id="footer">
+        <a href="#header">go to down</a>
+       </div>
+   </div>
+</body>
+</html>
